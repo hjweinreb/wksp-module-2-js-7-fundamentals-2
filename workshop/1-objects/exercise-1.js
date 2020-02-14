@@ -19,6 +19,23 @@
 // A) console.log() your object.
 // B) console.log() a few of the values in the object.
 
+var myObject = {
+    name: {
+        first: 'Harrison',
+        last: 'Weinreb',
+   },
+   age: '21',
+   city: 'Montreal',
+   petName: 'Larry'
+   petType: 'dog'
+   petLegs: '4'
+ }
+
+console.log(myObject);
+console.log(myObject.age)
+console.log(myObject.name.last)
+
+
 //-------------------------------------------------
 
 // Exercise 1.1
@@ -48,8 +65,12 @@
 // represent a collection of similar things?
 
 var favoriteMovie = {
+    title: 'The Shawshank Redemption',
+    director: 'Frank Darabont',
+    releaseYear: '1994',
+    actors: ['morgan freeman', 'actor2', 'actor3']
 
-}
+};
 
 
 //-------------------------------------------------
@@ -65,8 +86,8 @@ const person = {
     hometown: "somewhere"
 };
 
-person[age];    // => 26
-person.key;     // => "Alyssa P. Hacker"
+console.log(person.age);    // => 26
+person.name;     // => "Alyssa P. Hacker"
 
 
 //-------------------------------------------------
@@ -93,7 +114,7 @@ function fullName(person) {
 
 }
 
-console.log(fullName(alyssa)); // => "Alyssa P. Hacker"
+console.log(fullName(alyssa)); 
 
 // Exercise 1.5
 // ------------

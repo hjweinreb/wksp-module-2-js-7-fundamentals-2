@@ -2,10 +2,10 @@
 // -------------------
 
 var foodPairings = {
-    burgers: 'beer',
-    fish: 'white wine',
-    beef: 'red wine',
-    strawberries: 'cream'
+  burgers: "beer",
+  fish: "white wine",
+  beef: "red wine",
+  strawberries: "cream"
 };
 
 // We have an Object that contains food pairings so that our sommelier can make
@@ -13,7 +13,9 @@ var foodPairings = {
 
 // 6.1. Write a script that will print out all foods in the object.
 
-
 // 6.2 Write a script that outputs each key/value pair to the console a sentence like this:
 // "With <FOOD_ITEM>, it is best to have <BEVERAGE>."
 
+for (let x = 0; x < 4; x++) {
+  console.log("With" + foodPairings.x + "It is best to serve");
+}

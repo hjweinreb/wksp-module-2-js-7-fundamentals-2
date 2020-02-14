@@ -1,6 +1,16 @@
 // Exercise 3 (hard)
 // -------------------
-const colors = ["red", "orange", "yellow", "green", "pink", "black", "gray", "blue", "violet"];
+const colors = [
+  "red",
+  "orange",
+  "yellow",
+  "green",
+  "pink",
+  "black",
+  "gray",
+  "blue",
+  "violet"
+];
 
 // The array above contains all the colors in the visible light spectrum but has some
 // that don't belong. In case you've forgotten, the colors in the spectrum are:
